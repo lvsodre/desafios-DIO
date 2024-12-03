@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>Desafio - Criar página web</title>
+</head>
+
+<body>
+
+    <!--Head estará o conteúdo do cabeçalho da página-->
+
+    <head>
+        <h2>Site Desafio - DIO</h2>
+        <h3>Conceitos básicos de HTML</h3>
+    </head>
+    <hr>
+    <!--Main estará todo corpo de texto do site-desafio-->
+    <main>
+        <h2 id="indice">Índice</h2>
+
+        <ul>
+            <li><a href="#introdução-ao-html">Introdução ao HTML</a></li>
+            <li><a href="#estrutura-basica">Estrutura básica de um documento HTML</a></li>
+            <li><a href="#principais-tags">Principais Tags do HTML</a></li>
+            <li><a href="#atributos">Atributos</a></li>
+            <li><a href="#boas-praticas">Boas Práticas</a></li>
+            <li><a href="#conclusão">Conclusão</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ul>
+        <hr>
+
+        <h2 id="introdução-ao-html">Introdução ao HTML</h2>
+        <small><a href="#indice">Indice</a></small>
+        <p>O HTML (HyperText Markup Language) é a linguagem padrão para criar páginas web.<br>
+            Ele utiliza uma estrutura baseada em tags para organizar e exibir conteúdo em navegadores.<br>
+            Entender seus fundamentos é essencial para quem deseja trabalhar com desenvolvimento web.
+        </p>
+
+        <h2 id="estrutura-basica">1. Estrutura Básica de um Documento HTML</h2>
+        <small><a href="#indice">Indice</a></small>
+        <p>
+            Todo documento HTML segue uma estrutura básica. Veja o exemplo abaixo:
+        <div class=""></div>
+        <pre>
+                        <code>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;Minha Primeira Página&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Bem-vindo ao HTML&lt;/h1&gt;
+                    &lt;p&gt;Esta é uma página simples criada com HTML.&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+                        </code>
+                    </pre>
+        <pre>
+            <code>
+            &lt;!DOCTYPE html&gt;: Declaração do tipo de documento, informando que é um HTML5.
+            &lt;html&gt;: Tag que envolve todo o conteúdo da página.
+            &lt;head&gt;: Contém informações meta sobre a página, como título e links para estilos.
+            &lt;body&gt;: Abriga o conteúdo visível da página.</code>
+            </code>
+            </pre>
+
+        <h2 id="principais-tags">Principais Tags do HTML</h2>
+        <small><a href="#indice">Indice</a></small>
+        <p>Cabeçalhos Utilizados para títulos e subtítulos, variando de &lt;h1&gt; (mais importante) a &lt;h6&gt; (menos
+            importante).</p>
+
+
+        &lt;h1&gt;Título Principal&lt;/h1&gt;<br>
+        &lt;h2&gt;Subtítulo&lt;/h2&gt;<br>
+
+        <h3>Parágrafos</h3>
+        Usados para texto comum:
+        &lt;p&gt;Este é um parágrafo.&lt;/p&gt;
+
+        <h3>Links</h3>
+        Permitem a navegação entre páginas ou recursos externos:
+        &lt;a href="https://example.com"&gt;Clique aqui&lt;/a&gt;
+
+        <h3></h3>Imagens
+        Exibem imagens na página:
+        &lt;img src="imagem.jpg" alt="Descrição da imagem"&gt;
+
+        <h3>Listas</h3>
+        <strong>Ordenadas (&lt;ol&gt;):</strong><br>
+
+        &lt;ol&gt;
+
+        &lt;li>Primeiro item&lt;/li&gt;<br>
+        &lt;li>Segundo item&lt;/li&gt;
+
+        &lt;/ol&gt;<br><br>
+
+        <strong>Não ordenadas (&lt;ul&gt;):</strong><br>
+
+        &lt;ul&gt;
+
+        &lt;li>Item 1&lt;/li&gt;<br>
+        &lt;li>Item 2&lt;/li&gt;
+
+        &lt;/ul&gt;
+        </p>
+
+        <p>
+        <h2 id="atributos">3. Atributos</h2>
+        <small><a href="#indice">Indice</a></small>
+        <p>As tags HTML podem ter atributos para fornecer informações adicionais. Exemplos comuns incluem:</p>
+
+        <ul>
+            <li>href: Especifica o destino de um link.</li>
+            <li>src: Define a origem de uma imagem.</li>
+            <li>alt: Fornece texto alternativo para imagens.</li>
+            <li>class e id: Usados para estilização e identificação de elementos.</li>
+        </ul>
+
+        <p>Exemplo</p>
+        <p>&lt;a href="https://example.com" target="_blank"&gt;Visitar site&lt;/a&gt;</p>
+        </p>
+
+        <h2 id="boas-praticas">4. Boas Práticas</h2>
+        <small><a href="#indice">Indice</a></small>
+        <p>
+            Sempre feche as tags, mesmo as opcionais (ex.: &lt;html&gt;).<br>
+            Use indentação para facilitar a leitura do código.<br>
+            Adicione texto alternativo às imagens para acessibilidade.
+        </p>
+
+        <h2 id="conclusão">Conclusão</h2>
+        <small><a href="#indice">Indice</a></small>
+        <p>
+            Com esses conceitos básicos, você já pode começar a criar páginas simples em HTML.<br>
+            É importante praticar para entender como as tags interagem e experimentar novos elementos à medida que
+            avança.
+        </p>
+
+        <h2 id="referencias">Referências</h2>
+        <small><a href="#indice">Indice</a></small>
+
+        <p>Links úteis para estudo</p>
+        <ul>
+            <li><a href="https://web.dio.me/track/formacao-html-web-developer">Formação HTML Web Developer - DIO.me</a></li>
+            <li><a href="https://www.youtube.com/watch?v=BK3U6pnkMcU">Curso HTML - DevClub</a></li>
+            <li><a href="https://www.udemy.com/course/web-completo/learn/lecture/17869856#overview">Domine a Web - Udemy</a></li>
+            <li><a href="https://www.ev.org.br/cursos/crie-um-site-simples-usando-html-css-e-javascript">HTML do zero - Fundação Bradesco</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Fhy-5CtVkiM">Curso completo HTML - Rafaella Ballerini</a></li>
+        </ul>
+    </main>
+
+    <!--Footer estará todo conteúdo do rodapé do site-desafio-->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
