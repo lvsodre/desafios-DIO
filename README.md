@@ -13,6 +13,8 @@ Trabalhei meus últimos 12 anos na área de Laboratório de TI, onde sempre ador
 
 Adoro churrasco, futebol e amo estar com minha família.
 
+----
+
 ## Para que serve este repositório?
 
 Aqui neste repositório, estaremos apresentando todos desafios que foram propostos na plataforma da DIO.me. 
