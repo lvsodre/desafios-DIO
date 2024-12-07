@@ -1,4 +1,4 @@
-![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+um![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 # Desafios DIO.me
 
@@ -29,6 +29,6 @@ E lembre-se, todo aprendizado tem uma evolução.
 
 - [Leia mais sobre Markdown](https://www.markdownguide.org)
 - [Chat GPT](https://chatgpt.com/)
-- [DIO.me] (https://www.dio.me/)
+- [DIO.me](https://www.dio.me/)
 
 
