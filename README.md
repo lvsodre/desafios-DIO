@@ -2,11 +2,14 @@ um![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/Gi
 
 # Desafios DIO.me
 
-## Sobre mim!
 
-Boa galerinha. Meu nome é *Leandro Venturini Sodré*. Tenho 41 anos e estou começando minha transição de carreira para ser um Dev front end. 
+### 😉 Sobre Mim 
 
-Trabalhei muitos anos na área de suporte de laboratório e redes. Mas sempre achei o máximo o que os Devs faziam do outro lado. 
+*Me chamo Leandro Venturini Sodré*
+
+Sou Pós graduado em Redes de Computaodres, Graduado em Gestão de TI e um jovem senhor de 41 anos, estudando a área de Dev, especificamente Front-End!
+
+Trabalhei meus últimos 12 anos na área de Laboratório de TI, onde sempre adorei trabalhar com hardware, software e redes. 
 
 Adoro churrasco, futebol e amo estar com minha família.
 
