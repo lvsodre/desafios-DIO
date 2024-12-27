@@ -1,4 +1,4 @@
-um![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Logo do GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 # Desafios DIO.me
 
@@ -21,7 +21,7 @@ Aqui neste repositório, estaremos apresentando todos desafios que foram propost
 
 Desde o primeiro código HTML, até os códigos realizados com CSS e Javascript. 
 
-Vou tentar dar meu máximo de atenção a este repositório. Fazendo dele meu canal de aprendizado e incentivo a todos que curtem essa área fascinante. 
+Vou tentar dar meu máximo de atenção a este repositório. Fazendo dele meu canal de aprendizado e incentivo a todos que curtem esta área fascinante. 
 
 **Espero que gostem do conteúdo.**
 
