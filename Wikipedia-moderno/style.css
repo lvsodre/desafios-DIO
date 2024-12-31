@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --gradient: linear-gradient(to right,
+            rgb(0, 0, 0),
+            rgb(55, 55, 55),
+            rgb(0, 0, 255))
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(224, 224, 224);
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.bar {
+    background-color: rgb(167, 163, 163);
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+    align-content: center;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+article,
+p {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nome {
+    font-style: italic;
+    color: red;
+}
+
+/*Esta seção será o padrão da galeria de fotos*/
+
+.image {
+    width: 160px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.image:hover {
+    width: 160px;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-image: var(--gradient);
+    position: relative;
+    text-align: center;
+    transform: scale(1.2);
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+.divbox {
+    display: inline-block;
+    text-align: center;
+}
+
+.galeriabox {
+    width: 100%;
+    margin: 15px;
+}
+
+/*--*/
+
+h1,
+h2 {
+    background-image: var(--gradient);
+    background-clip: text;
+    --webkit-background-clip: text;
+    color: transparent;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+}
+
+/*Esta seção será a aplicação dos botões de navegação*/
+
+button {
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid 0px transparent;
+    align-items: center;
+    display: flex;
+}
+
+.classbutton {
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: solid 1px lightblue;
+    text-align: center;
+    align-items: center;
+}
+
+.classbutton:hover {
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(173, 166, 151);
+    border-radius: 20px;
+    border: solid 1px transparent;
+    text-align: center;
+    align-items: center;
+}
+
+iframe {
+    align-items: center;
+    display: flex;
+}
